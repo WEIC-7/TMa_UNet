@@ -1,0 +1,1 @@
+{"intensity_statistics_per_channel": {"0": {"mean": 121.16830444335938, "median": 120.0, "std": 14.256757736206055, "min": 41.0, "max": 195.0, "percentile_99_5": 165.0, "percentile_00_5": 85.0}}, "fullres spacing": [1.0, 1.0, 1.0], "median_shape": [176.0, 256.0, 224.0], "initial_patch_size": [256, 256, 256], "target medium patch size": [256, 256, 256]}
