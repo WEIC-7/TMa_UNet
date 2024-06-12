@@ -1,7 +1,8 @@
 <div style="display: flex; justify-content: flex-end; align-items: center;">
     <span>TMa_UNet : Tri-Directional Mamba U-Net with GSC2</span>
-    <img src="image/logo.png" alt="logo">
+    <img src="image/logo.png" alt="logo" style="height: 1em; margin-left: 5px;">
 </div>
+
 
 
 ![](image/TMa_UNet.png)
@@ -13,14 +14,11 @@
 - [Result](#-result)
 
 ## 📝 Introduction
-Competition: The 9th National College Students Biomedical Engineering Innovation Design Competition
-Topic: Automated Segmentation of Hippocampal Region in Brain MRI Images
+**Competition:**  The 9th National College Students Biomedical Engineering Innovation Design Competition\
+**Topic:**  Automated Segmentation of Hippocampal Region in Brain MRI Images\
 In this study, we propose the TMa-UNet model by integrating the Mamba model with the nnU-Net model. By introducing a Tri-Directional Fusion Module and improving the Gate-Space Convolutional Layer, our approach aims to capture global features of the hippocampus in multiple directions, enhancing the model's understanding of spatial relationships between the left and right hippocampal regions. Leveraging the linear complexity of state-space modeling for global feature representation, our method achieves efficient computation while considering global features. Experimental results demonstrate that TMa-UNet achieves an average Dice score of 0.9690 on a custom test set, outperforming the best configuration of nnU-Net with a Dice score of 0.9627.
 
-<div style="display: flex; justify-content: center;">
-    <img src="image/GSC2.png" alt="GSC2" style="margin-right: 20px;">
-    <img src="image/flat.png" alt="flat">
-</div>
+![](image/GSC2_FLAT.jpg)
 
 ## 🛠️ Installation
 
@@ -73,16 +71,16 @@ python 2_preprocess.py
 python 3_train.py
 ```
 
-The training logs and checkpoints will be saved in: **./logs/TMa-UNet**
+The training logs and checkpoints will be saved in:  **/logs/TMa-UNet**
 
 ### Inference 
 
-- 1. Directly run Use the test set automatically partitioned during training
+1. Directly run Use the test set automatically partitioned during training
 
 ```bash 
 python 4_predict.py
 ```
-- 2. Use an external dataset:
+2. Use an external dataset:
 Run steps 1 and 2 for the test set.
 
 Adjust the parameters of the function **get_train_val_test_loader_from_train**
@@ -102,7 +100,6 @@ The function takes several arguments:
 
 ## 🎉 Result
 ![](image/Result.png)  
-
 
 
 ## Acknowledgement
