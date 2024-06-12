@@ -1,9 +1,15 @@
 # TMa_UNet
 
+<<<<<<< HEAD
 **TMa_UNet : Tri-Directional Mamba U-Net with GSC2**
 
 ![](image/TMa_UNet.png)
 
+=======
+Tri-Directional Mamba U-Net with GSC2
+
+May be you should have an environment follow :python 3.10 + torch 2.0.1 + torchvision 0.15.2 (cuda 11.8)
+>>>>>>> 44fa2bf5fddf4f63999c1e364eaddae12965a34b
 
 ## Environment install
 May be you should have an environment follow :
