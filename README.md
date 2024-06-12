@@ -1,7 +1,9 @@
+# TMa_UNet
 
+Tri-Directional Mamba U-Net with GSC2
 
+![](TMa_UNet.png)
 
-![图片描述](TMa_UNet.png)
 
 ## Environment install
 May be you should have an environment follow :
