@@ -2,9 +2,9 @@
 
 <p align="center">
     <br>
-    <img src="image/logo.png" style="width: 50%"/>
+    <img src="image/logo.png" style="width: 50% !important"/>
     <br>
-<p>
+</p>
 
 <p align="center">
 <a href="https://www.bmedesign.cn/#/home">第九届全国大学生生物医学工程创新设计竞赛</a>
