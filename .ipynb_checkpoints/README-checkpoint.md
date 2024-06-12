@@ -1,8 +1,8 @@
 # TMa_UNet
 
-Tri-Directional Mamba U-Net with GSC2
+**TMa_UNet : Tri-Directional Mamba U-Net with GSC2**
 
-![](TMa_UNet.png)
+![](image/TMa_UNet.png)
 
 
 ## Environment install
@@ -37,7 +37,9 @@ pip install monai
 ## Preprocessing, training, testing, inference, and metrics computation
 
 ### Preprocessing
-Put data in **data/dataset/AffinedManualSegImageNIfT** 、 **data/dataset/RawImageNIfT**
+Put data in data/dataset/ 
+
+For example: **data/dataset/AffinedManualSegImageNIfT** 、 **data/dataset/RawImageNIfT**
 
 ```bash 
 python 1_rename.py
@@ -57,7 +59,16 @@ The training logs and checkpoints are saved in: **logdir = f"./logs/TMa-UNet"**
 
 ### Inference 
 
-Before inference, run 1、2 for the test set and modify function parameters **get_train_val_test_loader_from_train(data_dir, train_number = 0, val_number = 0,test_number=len(test_set))**
+Run 1、2 for the test set
+
+Modify function parameters: You need to adjust the parameters of the function **get_train_val_test_loader_from_train**
+
+The function takes several arguments:
+
+    data_dir: The directory where the data is stored.
+    train_number: The number of samples to be used for training.
+    val_number: The number of samples to be used for validation.
+    test_number: The number
 
 ```bash 
 python 4_predict.py
