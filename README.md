@@ -15,10 +15,11 @@
 - [Getting Started](#-getting-started)
 - [Result](#-result)
 
-<figure>
+<figure style="text-align: center;">
     <img src="image/TMa_UNet.png" alt="TMa_UNet">
-    <figcaption>TMa_UNet model.</figcaption>
+    <figcaption style="text-align: center;">TMa_UNet model.</figcaption>
 </figure>
+
 
 
 ## 📝 Introduction
@@ -26,9 +27,10 @@
 
 In this study, we propose the TMa-UNet model by integrating the Mamba model with the nnU-Net model. By introducing a Tri-Directional Fusion Module and improving the Gate-Space Convolutional Layer, our approach aims to capture global features of the hippocampus in multiple directions, enhancing the model's understanding of spatial relationships between the left and right hippocampal regions. Leveraging the linear complexity of state-space modeling for global feature representation, our method achieves efficient computation while considering global features. Experimental results demonstrate that TMa-UNet achieves an average Dice score of 0.9690 on a custom test set, outperforming the best configuration of nnU-Net with a Dice score of 0.9627.
 
-<figure>
+
+<figure style="text-align: center;">
     <img src="image/GSC2_Flat.png" alt="GSC2_FLAT">
-    <figcaption>(a) GSC2 Layer          (b)Example of flattening to a sequence</figcaption>
+    <figcaption style="text-align: center;">(a) GSC2 Layer          (b)Example of flattening to a sequence</figcaption>
 </figure>
 
 ## 🛠️ Installation
