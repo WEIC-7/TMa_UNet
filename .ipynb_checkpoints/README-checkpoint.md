@@ -1,17 +1,21 @@
-<div style="display: flex; justify-content: flex-end; align-items: center;">
-    <span>TMa_UNet : Tri-Directional Mamba U-Net with GSC2</span>
-    <img src="image/logo.png" alt="logo" style="height: 1em; margin-left: 5px;">
-</div>
+# TMa_UNet : Tri-Directional Mamba U-Net with GSC2
 
+<p align="center">
+    <br>
+    <img src="image/logo.png"/>
+    <br>
+<p>
 
-
-![](image/TMa_UNet.png)
+<p align="center">
+<a href="https://www.bmedesign.cn/#/home">第九届全国大学生生物医学工程创新设计竞赛</a>
 
 ## 📖 Table of Contents
 - [Introduction](#-introduction)
 - [Installation](#%EF%B8%8F-installation)
 - [Getting Started](#-getting-started)
 - [Result](#-result)
+
+![](image/TMa_UNet.png)
 
 ## 📝 Introduction
 **Competition:**  The 9th National College Students Biomedical Engineering Innovation Design Competition\
