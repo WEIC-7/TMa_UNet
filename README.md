@@ -20,7 +20,7 @@
 <a TMa_UNet</a>
 
 ## 📝 Introduction
-**Topic:**  Automated Segmentation of Hippocampal Region in Brain MRI Images\
+**Topic:**  Automated Segmentation of Hippocampal Region in Brain MRI Images
 
 In this study, we propose the TMa-UNet model by integrating the Mamba model with the nnU-Net model. By introducing a Tri-Directional Fusion Module and improving the Gate-Space Convolutional Layer, our approach aims to capture global features of the hippocampus in multiple directions, enhancing the model's understanding of spatial relationships between the left and right hippocampal regions. Leveraging the linear complexity of state-space modeling for global feature representation, our method achieves efficient computation while considering global features. Experimental results demonstrate that TMa-UNet achieves an average Dice score of 0.9690 on a custom test set, outperforming the best configuration of nnU-Net with a Dice score of 0.9627.
 
